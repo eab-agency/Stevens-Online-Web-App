@@ -1018,20 +1018,6 @@ export default function Layout({ children, currentPageName }) {
                       })}
                     </div>
                   </nav>
-
-                  {/* Mobile Menu CTA */}
-                  <div className="p-stevens-md border-t border-stevens-gray-200 bg-stevens-gray-50 space-y-stevens-sm">
-                    <a
-                      href="https://calendly.com/n3-stevens/30min"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block"
-                    >
-                      <Button className="w-full bg-stevens-white text-stevens-primary hover:bg-stevens-gray-100 font-stevens-semibold px-stevens-lg py-stevens-md rounded-stevens-md">
-                        Schedule a Call
-                      </Button>
-                              </a>
-                          </div>
                     </div>
                   </SheetContent>
                 </Sheet>
